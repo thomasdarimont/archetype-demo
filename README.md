@@ -1,13 +1,13 @@
 Maven Archtetypes from Github Project
 ---
 
-This example shows how to serve a custom Maven Archtetype from a Github Project with [jitpack](https://jitpack.io/).
+This example shows how to serve a custom [Maven Archtetype](https://maven.apache.org/archetype/maven-archetype-plugin/index.html) from a Github Project with [jitpack](https://jitpack.io/).
 
 Note that this allows maven to pull archetypes from arbitrary github projects, use at your own risk!
 
 # Setup
 
-To enable maven to fetch archetypes from github, you need to add the [jitpack](https://jitpack.io/) repository to your settings.xml
+To enable [Maven to fetch archetypes](https://maven.apache.org/archetype/maven-archetype-plugin/archetype-repository.html) from a github repository, you need to add the [jitpack](https://jitpack.io/) repository to your settings.xml
 
 In your `$HOME/.m2/settings.xml` add the following repository:
 ```
