@@ -2,6 +2,7 @@
 *.class
 
 target/classes
+*/target/classes
 
 # Log file
 *.log
