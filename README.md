@@ -7,7 +7,7 @@ Note that this allows maven to pull archetypes from arbitrary github projects, u
 
 # Setup
 
-To enable [Maven to fetch archetypes](https://maven.apache.org/archetype/maven-archetype-plugin/archetype-repository.html) from a github repository, you need to add the [jitpack](https://jitpack.io/) repository to your settings.xml
+To enable [Maven to fetch archetypes](https://maven.apache.org/archetype/maven-archetype-plugin/archetype-repository.html) from a github repository, you need to add the [jitpack](https://jitpack.io/) repository to your [settings.xml](https://maven.apache.org/settings.html).
 
 In your `$HOME/.m2/settings.xml` add the following repository:
 ```
