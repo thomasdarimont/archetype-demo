@@ -35,7 +35,7 @@ mvn archetype:generate \
   --batch-mode \
   -DarchetypeGroupId=com.github.thomasdarimont \
   -DarchetypeArtifactId=archetype-demo \
-  -DarchetypeVersion=1.0.0 \
+  -DarchetypeVersion=1.0.1 \
   -DgroupId=com.demo.group \
   -DartifactId=demo \
   -Dversion=1.0.0-SNAPSHOT
